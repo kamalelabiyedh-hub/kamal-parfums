@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kamal Parfums</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:'Cairo',sans-serif;
+background:#0f0f0f;
+color:white;
+text-align:center;
+}
+
+header{
+padding:30px;
+background:black;
+}
+
+.logo{
+font-size:32px;
+color:#D4AF37;
+font-weight:bold;
+}
+
+.hero{
+padding:60px 20px;
+}
+
+.hero h1{
+color:#D4AF37;
+font-size:40px;
+}
+
+.btn{
+background:#D4AF37;
+color:black;
+padding:15px 30px;
+border-radius:40px;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+margin-top:20px;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+padding:40px;
+}
+
+.card{
+background:#1a1a1a;
+padding:20px;
+border-radius:15px;
+width:260px;
+box-shadow:0 0 10px rgba(0,0,0,.5);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.price{
+color:#D4AF37;
+font-size:26px;
+margin:10px 0;
+}
+
+.section{
+padding:50px 20px;
+}
+
+.review{
+background:#1a1a1a;
+padding:15px;
+margin:10px auto;
+max-width:400px;
+border-radius:10px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:16px 22px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">KAMAL PARFUMS</div>
+</header>
+
+<section class="hero">
+<h1>أفضل باكات العطور الفاخرة</h1>
+<p>ثبات قوي • جودة عالية • توصيل مجاني</p>
+
+<a class="btn" href="https://wa.me/212671200422?text=سلام بغيت نطلب من الموقع">اطلب الآن</a>
+</section>
+
+<section class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1594035910387-fea47794261f">
+<h3>Pack 4 × 20ML</h3>
+<p>أربع عطور صغيرة مختلفة</p>
+<div class="price">149 DH</div>
+<a class="btn" href="https://wa.me/212671200422?text=سلام بغيت نطلب Pack 20ML">اطلب عبر واتساب</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1541643600914-78b084683601">
+<h3>Pack 4 × 50ML</h3>
+<p>أربع عطور كبيرة</p>
+<div class="price">199 DH</div>
+<a class="btn" href="https://wa.me/212671200422?text=سلام بغيت نطلب Pack 50ML">اطلب عبر واتساب</a>
+</div>
+
+</section>
+
+<section class="section">
+<h2 style="color:#D4AF37;">لماذا تختار عطورنا؟</h2>
+
+<p>✔ ثبات طويل يدوم ساعات</p>
+<p>✔ روائح فخمة شرقية</p>
+<p>✔ جودة ممتازة</p>
+<p>✔ توصيل سريع لجميع المدن</p>
+
+</section>
+
+<section class="section">
+
+<h2 style="color:#D4AF37;">آراء الزبناء</h2>
+
+<div class="review">
+⭐⭐⭐⭐⭐  
+العطر زوين وثابت بزاف.
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐  
+وصلني الطلب بسرعة والرائحة رائعة.
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐  
+أفضل عرض جربتو بثمن مناسب.
+</div>
+
+</section>
+
+<footer style="padding:30px;border-top:1px solid #222">
+© 2026 Kamal Parfums
+</footer>
+
+<a class="whatsapp" href="https://wa.me/212671200422">WhatsApp</a>
+
+</body>
+</html>
